@@ -177,7 +177,7 @@ public class Main extends Application {
                     player2.setTranslateX(player2XPos);
                     player2.setTranslateY(player2YPos);
 
-                    rand = (int)(Math.random() +1);
+                    rand = (int)(Math.random() * 2 +1);
                     if(rand == 1)
                     {
                         player1Turn = true;
